@@ -1,0 +1,32 @@
+.post-img {
+  height: 500px;
+  overflow: hidden;
+}
+.post-img img {
+  width: 100%;
+}
+.bp-content h1 {
+  text-align: center;
+  padding-bottom: 12px;
+}
+.bp-content p {
+  font-size: 18px;
+}
+.bg-meta {
+  /* background-color: rgb(187, 89, 89);*/
+  display: flex;
+  justify-content: space-between;
+}
+.author-info {
+  margin: 12px 0;
+  font-weight: bold;
+}
+.author-info div {
+  padding: 4px 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.social {
+  padding-right: 53px;
+  align-self: center;
+  cursor: pointer;
+}

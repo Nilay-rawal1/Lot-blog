@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  font-family: var(--font1);
+ /* height: 74px;*/
+  margin-top: 25px;
+  /* background-color: aquamarine;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navleft {
+  display: flex;
+}
+.navleft span {
+  font-size: 45px;
+  padding-top: 10px;
+}
+.navleft ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  padding-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.navleft ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font2);
+  transition: all 0.3s ease-in-out;
+}
+.navleft ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navleft ul li a:hover {
+  color: var(--main-bg-color);
+  font-weight: bolder;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+}
+.content::after {
+  content: "";
+  background-image: url("../img/ar2.png");
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  opacity: 0.04;
+}
+.contentleft {
+  font-family: var(--font1);
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.contentright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentright img {
+  height: 300px;
+  border: 4px solid black;
+  border-radius: 500px;
+  width: 310px;
+}
+.home-articles {
+  padding: 18px;
+  margin-top: 23px;
+  position: relative;
+}
+.yearbox{
+  position: absolute;
+  width:234px ;
+  height:295px ;
+  right: 119px;
+  top: 100px;
+ /* background-color: rebeccapurple;*/
+}
+.yearbox div{
+  margin: 12px 0;
+  font-size: 18px;
+}
+.home-article {
+  display: flex;
+  margin: 25px;
+}
+.home-article-content {
+  align-self: center;
+  padding: 25px;
+  padding-top: 13px;
+}
+
+.home-article-img3  {}
+.home-article-content a{
+  text-decoration: none;
+  color: black
+
+}
+
+.footer {
+  height: 50px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  color: black;
+  text-decoration: none;
+  flex-direction: column;
+  font-size: 20px;
+  background-color: lightslategrey;
+}
+.footer a {
+  color: white;
+}

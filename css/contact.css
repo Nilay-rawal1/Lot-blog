@@ -1,0 +1,22 @@
+.contact-content {
+      
+      height: 100vh;
+      display: block;
+      margin-top: 32px;
+      padding: 10px;
+      position: relative;
+      overflow: hidden;
+    }
+    .contact-content::after {
+      content: "";
+      background-image: url("../img/ar2.png");
+      width: 100%;
+      height: inherit;
+      position: absolute;
+      top: 0;
+      opacity: 0.14;
+      z-index: -1;
+    }
+.contactform{
+
+}
